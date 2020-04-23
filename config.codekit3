@@ -19,6 +19,83 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/header/big.jpg": {
+		"ft": 16384,
+		"iS": 46465,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/header/big.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-1/whole_boy.jpg": {
+		"ft": 16384,
+		"iS": 85846,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-1/whole_boy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-2/oasis.jpg": {
+		"ft": 16384,
+		"iS": 106000,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-2/oasis.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-3/rover.jpg": {
+		"ft": 16384,
+		"iS": 85963,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-3/rover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-3/rover_selfie.jpg": {
+		"ft": 16384,
+		"iS": 317790,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-3/rover_selfie.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-3/rovernew.jpg": {
+		"ft": 16384,
+		"iS": 122775,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-3/rovernew.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-4/sunset.jpg": {
+		"ft": 16384,
+		"iS": 16767,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-4/sunset.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -248,138 +325,6 @@
 		"oAP": "/dev/section-4.html",
 		"oF": 0
 		},
-	"/Optomized /2rover.jpg": {
-		"ft": 16384,
-		"iS": 206747,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Optomized /2rover.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Optomized /big shot.png": {
-		"ft": 32768,
-		"iS": 371574,
-		"oA": 0,
-		"oAP": "/Optomized /big shot.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Optomized /big.jpg": {
-		"ft": 16384,
-		"iS": 46465,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Optomized /big.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Optomized /oasis.jpg": {
-		"ft": 16384,
-		"iS": 106000,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Optomized /oasis.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Optomized /polar cap of mars.jpg": {
-		"ft": 16384,
-		"iS": 67331,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Optomized /polar cap of mars.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Optomized /rocks.jpg": {
-		"ft": 16384,
-		"iS": 231957,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Optomized /rocks.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Optomized /rover selfie.jpg": {
-		"ft": 16384,
-		"iS": 317790,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Optomized /rover selfie.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Optomized /rover.jpg": {
-		"ft": 16384,
-		"iS": 85963,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Optomized /rover.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Optomized /rovernew.jpg": {
-		"ft": 16384,
-		"iS": 122775,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Optomized /rovernew.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Optomized /scientists.jpg": {
-		"ft": 16384,
-		"iS": 97442,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Optomized /scientists.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Optomized /sunset.jpg": {
-		"ft": 16384,
-		"iS": 16767,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Optomized /sunset.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Optomized /whole boy.jpg": {
-		"ft": 16384,
-		"iS": 85846,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Optomized /whole boy.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -406,7 +351,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 609282089.60785699,
-	"displayValue": "StructureHtml",
+	"displayValue": "GithubStructureHtml",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-cafe",
 	"iconImageWasSetByUser": 0
