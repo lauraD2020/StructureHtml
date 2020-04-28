@@ -63,23 +63,23 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-3/rover_selfie.jpg": {
-		"ft": 16384,
-		"iS": 317790,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/section-3/rover_selfie.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/deploy/img/section-3/rovernew.jpg": {
 		"ft": 16384,
 		"iS": 122775,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/section-3/rovernew.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-3/roverselfie.jpg": {
+		"ft": 16384,
+		"iS": 317790,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-3/roverselfie.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -150,7 +150,7 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/scss/base/_base.scss": {
+	"/dev/scss /base/_base.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -158,12 +158,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/base/_base.css",
+		"oAP": "/dev/scss /base/_base.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/base/_normalize.scss": {
+	"/dev/scss /base/_normalize.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -171,12 +171,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/base/_normalize.css",
+		"oAP": "/dev/scss /base/_normalize.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/base/_typography.scss": {
+	"/dev/scss /base/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -184,12 +184,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/base/_typography.css",
+		"oAP": "/dev/scss /base/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/components/_buttons.scss": {
+	"/dev/scss /components/_buttons.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -197,12 +197,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/components/_buttons.css",
+		"oAP": "/dev/scss /components/_buttons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/components/_forms.scss": {
+	"/dev/scss /components/_forms.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -210,12 +210,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/components/_forms.css",
+		"oAP": "/dev/scss /components/_forms.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/components/_navigation.scss": {
+	"/dev/scss /components/_navigation.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -223,12 +223,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/components/_navigation.css",
+		"oAP": "/dev/scss /components/_navigation.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/helpers/_mixins.scss": {
+	"/dev/scss /helpers/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -236,12 +236,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/helpers/_mixins.css",
+		"oAP": "/dev/scss /helpers/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/helpers/_variables.scss": {
+	"/dev/scss /helpers/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -249,12 +249,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/helpers/_variables.css",
+		"oAP": "/dev/scss /helpers/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/layout/_footer.scss": {
+	"/dev/scss /layout/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -262,12 +262,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/layout/_footer.css",
+		"oAP": "/dev/scss /layout/_footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/layout/_header.scss": {
+	"/dev/scss /layout/_header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -275,12 +275,64 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/layout/_header.css",
+		"oAP": "/dev/scss /layout/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/styles.scss": {
+	"/dev/scss /sections/_section-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss /sections/_section-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss /sections/_section-2.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss /sections/_section-2.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss /sections/_section-3.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss /sections/_section-3.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss /sections/_section-4.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss /sections/_section-4.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss /styles.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -288,7 +340,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/dev/scss/styles.css",
+		"oAP": "/dev/scss /styles.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -323,6 +375,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/section-4.html",
+		"oF": 0
+		},
+	"/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/README.html",
 		"oF": 0
 		},
 	"/README.md": {
