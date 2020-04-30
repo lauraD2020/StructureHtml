@@ -4,11 +4,41 @@
 #section-2{
     display: grid;
     grid-template-columns: 10px auto 10px;
-    grid-template-areas: ". section-2 .";
+    grid-template-areas: ". section-2-container .";
+
+    >div{
+        grid-area: section-2-container;
+        section{
+            div{
+                img{
+                    width:100%;
+                 }     
+            }
+        }    
+
+    }
+
+    @include xl{
+        grid-area: section-2-container;
+    }
+
+
+    @include md{
+        grid-area: section-2-container;
+    }
+    
     article{
-        background-color: $white;
-        color: $red;
-        padding: 100px 0;
+        grid-area: section-2-container;
+        color: $blue;
+        padding-top: 300px;
+        padding-left: 100px;
+        padding-bottom: 70px;
         text-align: center;
+        h3{
+            border-top: 3px solid $red;
+            border-bottom: 3px solid $red;
+            width: 70%;
+        }
+        
     }
 }

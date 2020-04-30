@@ -1,10 +1,49 @@
 /* =============
     Section 1
 ============= */
-#section-1{
-    background-color: $white;
-    color: $black;
-    padding: 100px 0;
-    text-align: center;
 
-}
+#section-1{
+
+    display: grid;
+    grid-template-columns: 10px auto 10px;
+    grid-template-areas: ". section-1-container .";
+
+
+   >div{
+        grid-area: section-1-container;
+        article{
+           
+            div{
+                img{
+                    width:100%;
+                 }     
+            }
+        }    
+
+    }
+
+    @include xl{
+        grid-area: section-1-container;
+    }
+
+
+    @include md{
+        grid-area: section-1-container;
+    }
+
+    section{
+        grid-area: section-1-container;
+        color: $black;
+        padding: 60px 0;
+        padding-left: 60px;
+        text-align: center;
+
+        h2{
+            border-top: 3px solid $red;
+            border-bottom: 3px solid $red;
+            width: 80%;
+        }
+    }
+}    
+    
+
