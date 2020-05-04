@@ -6,7 +6,19 @@
         display: grid;
         grid-template-columns: auto 1200px auto;
         grid-template-areas: ". header .";
-     
+        background-image: url('../img/header/big.jpg');
+        height: 600px;
+        background-size: cover;
+        
+        @include md{
+            height: 400px;
+        
+        }
+        
+        @include xl{
+            grid-template-columns: auto 1200px auto;
+            
+        }
     }
    
 

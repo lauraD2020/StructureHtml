@@ -6,39 +6,34 @@
     grid-template-columns: 10px auto 10px;
     grid-template-areas: ". section-2-container .";
 
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
     >div{
         grid-area: section-2-container;
         section{
+
             div{
-                img{
-                    width:100%;
-                 }     
+                background-image: url('../img/section-2/oasis.jpg');
+                height: 420px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+
+                @include md{
+                    height: 400px;
+                    background-position: 0px;
+                }
+
+                @include lg{
+                    height: 500px;
+                    background-position: 0px;
+                }
+                   
             }
         }    
 
     }
-
-    @include xl{
-        grid-area: section-2-container;
-    }
-
-
-    @include md{
-        grid-area: section-2-container;
-    }
-    
-    article{
-        grid-area: section-2-container;
-        color: $blue;
-        padding-top: 300px;
-        padding-left: 100px;
-        padding-bottom: 70px;
-        text-align: center;
-        h3{
-            border-top: 3px solid $red;
-            border-bottom: 3px solid $red;
-            width: 70%;
-        }
-        
-    }
 }
+ 

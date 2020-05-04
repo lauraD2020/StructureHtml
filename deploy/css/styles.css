@@ -383,8 +383,16 @@ textarea {
 #header div {
   display: grid;
   grid-template-columns: auto 1200px auto;
-  grid-template-areas: ". header ."; }
-
+  grid-template-areas: ". header .";
+  background-image: url("../img/header/big.jpg");
+  height: 600px;
+  background-size: cover; }
+  @media (min-width: 768px) {
+    #header div {
+      height: 400px; } }
+  @media (min-width: 1200px) {
+    #header div {
+      grid-template-columns: auto 1200px auto; } }
 #header h1 {
   background-color: #000;
   color: #fff;
@@ -414,26 +422,32 @@ footer {
   display: grid;
   grid-template-columns: 10px auto 10px;
   grid-template-areas: ". section-1-container ."; }
-  #section-1 > div {
-    grid-area: section-1-container; }
-    #section-1 > div article div img {
-      width: 100%; }
   @media (min-width: 1200px) {
     #section-1 {
-      grid-area: section-1-container; } }
-  @media (min-width: 768px) {
-    #section-1 {
-      grid-area: section-1-container; } }
+      grid-template-columns: auto 1200px auto; } }
+  #section-1 > div {
+    grid-area: section-1-container; }
+    #section-1 > div article div {
+      background-image: url("../img/section-1/whole_boy.jpg");
+      height: 420px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center; }
+      @media (min-width: 768px) {
+        #section-1 > div article div {
+          height: 280px;
+          background-position-x: -320px; } }
+      @media (min-width: 992px) {
+        #section-1 > div article div {
+          height: 490px;
+          background-position-x: 0px; } }
   #section-1 section {
-    grid-area: section-1-container;
     color: #000;
     padding: 60px 0;
-    padding-left: 60px;
     text-align: center; }
     #section-1 section h2 {
       border-top: 3px solid #870000;
-      border-bottom: 3px solid #870000;
-      width: 80%; }
+      border-bottom: 3px solid #870000; }
 
 /* =============
     Section 2
@@ -442,46 +456,42 @@ footer {
   display: grid;
   grid-template-columns: 10px auto 10px;
   grid-template-areas: ". section-2-container ."; }
-  #section-2 > div {
-    grid-area: section-2-container; }
-    #section-2 > div section div img {
-      width: 100%; }
   @media (min-width: 1200px) {
     #section-2 {
-      grid-area: section-2-container; } }
-  @media (min-width: 768px) {
-    #section-2 {
-      grid-area: section-2-container; } }
-  #section-2 article {
-    grid-area: section-2-container;
-    color: #1C60AF;
-    padding-top: 300px;
-    padding-left: 100px;
-    padding-bottom: 70px;
-    text-align: center; }
-    #section-2 article h3 {
-      border-top: 3px solid #870000;
-      border-bottom: 3px solid #870000;
-      width: 70%; }
-
+      grid-template-columns: auto 1200px auto; } }
+  #section-2 > div {
+    grid-area: section-2-container; }
+    #section-2 > div section div {
+      background-image: url("../img/section-2/oasis.jpg");
+      height: 420px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center; }
+      @media (min-width: 768px) {
+        #section-2 > div section div {
+          height: 400px;
+          background-position: 0px; } }
+      @media (min-width: 992px) {
+        #section-2 > div section div {
+          height: 500px;
+          background-position: 0px; } }
 /* =============
     Section 3
 ============= */
-#section-3 section {
+#section-3 #section-3-content {
+  grid-area: section-5;
   display: grid;
-  grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". section-3 ."; }
+  gap: 20px; }
+  #section-3 #section-3-content li img {
+    width: 100%; }
 
-@media (min-width: 1200px) {
-  #section-3 {
-    grid-area: section-3; } }
-
-@media (min-width: 768px) {
-  #section-3 {
-    grid-area: section-3; } }
-
-#section-3 ul img {
-  width: 100%; }
+#section-3 > div article {
+  color: #1C60AF;
+  padding: 60px 0;
+  text-align: center; }
+  #section-3 > div article h3 {
+    border-top: 3px solid #870000;
+    border-bottom: 3px solid #870000; }
 
 /* =============
     Section 4
@@ -489,20 +499,13 @@ footer {
 #section-4 {
   display: grid;
   grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". section-4-container ."; }
-  #section-4 section {
-    grid-area: section-4-container;
-    color: #000;
-    padding-top: 380px;
-    padding-bottom: 50px;
-    text-align: center; }
-  @media (min-width: 1200px) {
-    #section-4 {
-      grid-area: section-4-container; } }
-  @media (min-width: 768px) {
-    #section-4 {
-      grid-area: section-4-container; } }
-  #section-4 > div {
-    grid-area: section-4-container; }
-    #section-4 > div article div img {
+  grid-template-areas: ". section-4 ."; }
+  #section-4 #section-4-content {
+    grid-area: section-4; }
+    #section-4 #section-4-content div img {
       width: 100%; }
+    #section-4 #section-4-content section {
+      color: #000;
+      text-align: center;
+      padding-bottom: 60px;
+      padding-top: 20px; }
