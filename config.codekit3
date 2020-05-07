@@ -52,45 +52,45 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-3/rover.jpg": {
+	"/deploy/img/section-4/rover.jpg": {
 		"ft": 16384,
 		"iS": 85963,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-3/rover.jpg",
+		"oAP": "/deploy/img/section-4/rover.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-3/rovernew.jpg": {
+	"/deploy/img/section-4/rovernew.jpg": {
 		"ft": 16384,
 		"iS": 122775,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-3/rovernew.jpg",
+		"oAP": "/deploy/img/section-4/rovernew.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-3/roverselfie.jpg": {
+	"/deploy/img/section-4/roverselfie.jpg": {
 		"ft": 16384,
 		"iS": 317790,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-3/roverselfie.jpg",
+		"oAP": "/deploy/img/section-4/roverselfie.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-4/sunset.jpg": {
+	"/deploy/img/section-5/sunset.jpg": {
 		"ft": 16384,
 		"iS": 16767,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-4/sunset.jpg",
+		"oAP": "/deploy/img/section-5/sunset.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -332,6 +332,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss /sections/_section-5.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss /sections/_section-5.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss /styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -375,6 +388,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/section-4.html",
+		"oF": 0
+		},
+	"/dev/section-5.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/section-5.html",
 		"oF": 0
 		},
 	"/README.html": {

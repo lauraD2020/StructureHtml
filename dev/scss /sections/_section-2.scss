@@ -2,38 +2,21 @@
     Section 2
 ============= */
 #section-2{
-    display: grid;
-    grid-template-columns: 10px auto 10px;
-    grid-template-areas: ". section-2-container .";
+    background-image: url('../img/section-2/oasis.jpg');
+    height: 520px;
+    background-size: cover;
+    background-position: center;
+
+    @include md{
+        height: 540px;
+    }
+
+    @include lg{
+        height: 683px;
+    }
 
     @include xl{
-        grid-template-columns: auto 1200px auto;
+        height: 690px;
     }
 
-    >div{
-        grid-area: section-2-container;
-        section{
-
-            div{
-                background-image: url('../img/section-2/oasis.jpg');
-                height: 420px;
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center;
-
-                @include md{
-                    height: 400px;
-                    background-position: 0px;
-                }
-
-                @include lg{
-                    height: 500px;
-                    background-position: 0px;
-                }
-                   
-            }
-        }    
-
-    }
 }
- 

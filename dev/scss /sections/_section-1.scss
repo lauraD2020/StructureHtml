@@ -3,56 +3,64 @@
 ============= */
 
 #section-1{
-    display: grid;
-    grid-template-columns: 10px auto 10px;
-    grid-template-areas: ". section-1-container .";
+    padding-bottom: 30px;
    
     @include xl{
+        display: grid;
         grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". section-1-container .";
     }
  
-   >div{
-        grid-area: section-1-container;
-        article{
-           
-            div{
-                background-image: url('../img/section-1/whole_boy.jpg');
-                height: 420px;
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center;
+    #section-1-container{
 
+        @include md{
+            display: grid;
+            grid-template-columns: 40% auto;
+            grid-template-areas: "section-1-image section-1-content";
+            padding: 50px 0;
+        }
+
+        @include xl{
+            grid-area: section-1-container;
+        }
+
+        section{
+            margin: 60px 0;
+            @include md{
+                margin: 0;
+            }
+
+            #section-1-content{
+                padding: 0 15px;
+                grid-area: section-1-content;
                 @include md{
-                        height: 280px;
-                        background-position-x: -320px;
-
+                    grid-area: section-1-image;
                 }
-
-                @include lg{
-                        height: 490px;
-                        background-position-x: 0px;
-                    
+                h2{
+                    padding: 7px 0;
+                    border-top: 3px solid $red;         
+                    border-bottom: 3px solid $red;
+                    text-align: center;
                 }
-                
-                
-                 
-            }    
+            }
+        }
 
-         }
-    }
+        aside{
+            background-image: url('../img/section-1/whole_boy.jpg');
+            background-size: cover;
+            height: 480px;
+            @include md{
+                grid-area: section-1-image;
+                height: 416px;
+            }
+            @include lg{
+                height: 730px;
+            }
 
+            @include xl{
+                height: 740px;
+            }
 
-    section{
-        color: $black;
-        padding: 60px 0;
-        text-align: center;
-
-        h2{
-            border-top: 3px solid $red;
-            border-bottom: 3px solid $red;
-            
         }
     }
-}    
-    
-
+}

@@ -2,28 +2,57 @@
     Section 4
 ============= */
 #section-4{
-    display: grid;
-    grid-template-columns: 10px auto 10px;
-    grid-template-areas: ". section-4 .";
 
-    #section-4-content{
-        grid-area: section-4;
-       
-        div{
-            img{
-                width: 100%;
+    @include xl{
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". section-4 .";
+    }
+
+    ul{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-rows: repeat(3, 300px);
+
+        @include md{
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 340px);
+            grid-template-areas: 
+            "newrover newrover"
+            "newrover newrover"
+            "rover selfie";
+        }
+
+        @include xl{
+            grid-area: section-4;
+        }
+
+        li{
+            background-position: center;
+            background-size: cover;
+        }
+
+        #newrover{
+            background-image: url('../img/section-4/rovernew.jpg');
+            @include md{
+                grid-area: newrover;
+                background-position: center top;
             }
         }
 
-       section{
-            color: $black;
-            text-align: center;
-            padding-bottom: 60px;
-            padding-top: 20px;
-        } 
+        #rover{
+            background-image: url('../img/section-4/rover.jpg');
+            @include md{
+                grid-area: rover;
+            }
+        }
         
+        #selfie{
+            background-image: url('../img/section-4/roverselfie.jpg');
+            @include md{
+                grid-area: selfie;
+            }
+        }
+
     }
-   
-    
 }
-   

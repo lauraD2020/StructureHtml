@@ -2,36 +2,27 @@
     Header
 ============= */
 #header{
-    div{
-        display: grid;
-        grid-template-columns: auto 1200px auto;
-        grid-template-areas: ". header .";
-        background-image: url('../img/header/big.jpg');
-        height: 600px;
-        background-size: cover;
-        
-        @include md{
-            height: 400px;
-        
-        }
-        
-        @include xl{
-            grid-template-columns: auto 1200px auto;
-            
-        }
+
+    background-image: url('../img/header/big.jpg');
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+    color: $white;
+    text-align: center;
+
+    @include md{
+        height: 497px;
+    
     }
+    
+    @include xl{
+        height: 645px;            
+    }
+    
    
 
     h1{
-        background-color: $black;
-        color: $white;
-        padding: 70px 0;
-        text-align: center; 
-    }
-    h2{
-        background-color: $black;
-        color: $white;
-        padding: 10px 0;
-        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 50px;
     }
 }

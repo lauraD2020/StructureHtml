@@ -1,0 +1,50 @@
+/* =============
+    Section 5
+============= */
+#section-5{
+    padding: 40px;
+
+    @include xl{
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". section-5 .";
+    }
+    
+    >div{
+        
+        @include xl{
+            display: grid;
+            grid-template-columns: 35% auto;
+            grid-area: section-5;
+        }
+
+        aside{
+            text-align: center;
+            margin-bottom: 34px;
+            @include md{
+                margin-bottom: 46px;
+            }
+        }
+
+        section{
+            display: grid;
+            grid-template-columns: 15px auto 15px;
+            grid-template-areas: ". section-5 .";
+            text-align: justify;
+            color: $black;
+
+            @include md{
+                grid-auto-columns: auto 70% auto;
+            }
+            >div{
+                grid-area: section-5;
+            }
+            
+        }
+
+
+    }
+   
+    
+}
+   
