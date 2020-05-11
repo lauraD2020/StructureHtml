@@ -1,8 +1,8 @@
 /* =============
-    Section 1
+    Section 1b
 ============= */
 
-#section-1{
+#section-1b{
     padding-bottom: 30px;
    
     @include xl{
@@ -11,17 +11,17 @@
         grid-template-areas: ". section-1-container .";
     }
  
-    #section-1-container{
+    #section-1b-container{
 
         @include md{
             display: grid;
             grid-template-columns: 40% auto;
-            grid-template-areas: "section-1-image section-1-content";
+            grid-template-areas: "section-1b-image section-1b-content";
             padding: 50px 0;
         }
 
         @include xl{
-            grid-area: section-1-container;
+            grid-area: section-1b-container;
         }
 
         section{
@@ -30,11 +30,11 @@
                 margin: 0;
             }
 
-            #section-1-content{
+            #section-1b-content{
                 padding: 0 15px;
-                grid-area: section-1-content;
+                grid-area: section-1b-content;
                 @include md{
-                    grid-area: section-1-image;
+                    grid-area: section-1b-image;
                 }
                 h2{
                     padding: 7px 0;
@@ -49,10 +49,11 @@
             background-image: url('../img/section-1/whole_boy.jpg');
             background-size: cover;
             height: 480px;
+            
             @include md{
-                grid-area: section-1-image;
                 height: 416px;
             }
+
             @include lg{
                 height: 730px;
             }

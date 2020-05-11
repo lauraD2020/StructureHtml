@@ -343,7 +343,7 @@ ul {
     Typography
 ============= */
 body {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Nunito Sans', sans-serif; }
 
 h1, h2, h3, h4 {
   margin: 0;
@@ -377,25 +377,56 @@ textarea {
 /* =============
     Navigation
 ============= */
+#nav-container ul {
+  height: 100%;
+  text-align: right; }
+  @media (min-width: 992px) {
+    #nav-container ul {
+      display: flex;
+      justify-content: flex-end; } }
+  #nav-container ul li {
+    margin-bottom: 20px; }
+    @media (min-width: 992px) {
+      #nav-container ul li {
+        margin: 0 30px 0 0;
+        align-items: center;
+        display: flex; } }
+    #nav-container ul li a:link,
+    #nav-container ul li a:visited {
+      color: #1C60AF;
+      text-decoration: none; }
+    #nav-container ul li a:hover,
+    #nav-container ul li a:active {
+      color: #000; }
+
 /* =============
     Header
 ============= */
 #header {
-  background-image: url("../img/header/big.jpg");
-  height: 360px;
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-  text-align: center; }
-  @media (min-width: 768px) {
-    #header {
-      height: 497px; } }
-  @media (min-width: 1200px) {
-    #header {
-      height: 645px; } }
-  #header h1 {
-    padding-top: 100px;
-    padding-bottom: 50px; }
+  background-color: #fff;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  #header > div {
+    display: grid;
+    grid-template-areas: "logo burger" "nav nav";
+    grid-template-columns: 80% auto; }
+    #header > div #logo-container {
+      grid-area: logo; }
+    #header > div #burger-container {
+      grid-area: burger; }
+      @media (min-width: 992px) {
+        #header > div #burger-container {
+          display: none; } }
+    #header > div #nav-container {
+      grid-area: nav;
+      display: none; }
+      @media (min-width: 992px) {
+        #header > div #nav-container {
+          display: block; } }
+    #header > div section i {
+      color: #1C60AF; }
 
 /* =============
     Footer
@@ -412,53 +443,72 @@ footer {
     bottom: 10px; }
 
 /* =============
-    Section 1
+    Section 1a
 ============= */
-#section-1 {
+#section-1a {
+  background-image: url("../img/header/big.jpg");
+  height: 360px;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center; }
+  @media (min-width: 768px) {
+    #section-1a {
+      height: 497px; } }
+  @media (min-width: 1200px) {
+    #section-1a {
+      height: 645px; } }
+  #section-1a h1 {
+    padding-top: 100px;
+    padding-bottom: 50px; }
+
+/* =============
+    Section 1b
+============= */
+#section-1b {
   padding-bottom: 30px; }
   @media (min-width: 1200px) {
-    #section-1 {
+    #section-1b {
       display: grid;
       grid-template-columns: auto 1200px auto;
       grid-template-areas: ". section-1-container ."; } }
   @media (min-width: 768px) {
-    #section-1 #section-1-container {
+    #section-1b #section-1b-container {
       display: grid;
       grid-template-columns: 40% auto;
-      grid-template-areas: "section-1-image section-1-content";
+      grid-template-areas: "section-1b-image section-1b-content";
       padding: 50px 0; } }
   @media (min-width: 1200px) {
-    #section-1 #section-1-container {
-      grid-area: section-1-container; } }
-  #section-1 #section-1-container section {
+    #section-1b #section-1b-container {
+      grid-area: section-1b-container; } }
+  #section-1b #section-1b-container section {
     margin: 60px 0; }
     @media (min-width: 768px) {
-      #section-1 #section-1-container section {
+      #section-1b #section-1b-container section {
         margin: 0; } }
-    #section-1 #section-1-container section #section-1-content {
+    #section-1b #section-1b-container section #section-1b-content {
       padding: 0 15px;
-      grid-area: section-1-content; }
+      grid-area: section-1b-content; }
       @media (min-width: 768px) {
-        #section-1 #section-1-container section #section-1-content {
-          grid-area: section-1-image; } }
-      #section-1 #section-1-container section #section-1-content h2 {
+        #section-1b #section-1b-container section #section-1b-content {
+          grid-area: section-1b-image; } }
+      #section-1b #section-1b-container section #section-1b-content h2 {
         padding: 7px 0;
         border-top: 3px solid #870000;
         border-bottom: 3px solid #870000;
         text-align: center; }
-  #section-1 #section-1-container aside {
+  #section-1b #section-1b-container aside {
     background-image: url("../img/section-1/whole_boy.jpg");
     background-size: cover;
     height: 480px; }
     @media (min-width: 768px) {
-      #section-1 #section-1-container aside {
-        grid-area: section-1-image;
+      #section-1b #section-1b-container aside {
         height: 416px; } }
     @media (min-width: 992px) {
-      #section-1 #section-1-container aside {
+      #section-1b #section-1b-container aside {
         height: 730px; } }
     @media (min-width: 1200px) {
-      #section-1 #section-1-container aside {
+      #section-1b #section-1b-container aside {
         height: 740px; } }
 /* =============
     Section 2

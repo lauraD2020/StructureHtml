@@ -2,27 +2,41 @@
     Header
 ============= */
 #header{
+    background-color: $white;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
 
-    background-image: url('../img/header/big.jpg');
-    height: 360px;
-    background-size: cover;
-    background-position: center;
-    color: $white;
-    text-align: center;
+    >div{
+        display: grid;
+        grid-template-areas: "logo burger"
+                            "nav nav";
+        grid-template-columns: 80% auto;
+        #logo-container{
+            grid-area: logo;
+        }
+        #burger-container{
+            grid-area: burger;
+            @include lg{
+                display: none;
+                
+            }
+        }
+        #nav-container{
+            grid-area: nav;
+            display: none;
 
-    @include md{
-        height: 497px;
-    
-    }
-    
-    @include xl{
-        height: 645px;            
-    }
-    
-   
+            @include lg{
+                display: block;
 
-    h1{
-        padding-top: 100px;
-        padding-bottom: 50px;
+            }
+        }
+        
+        section{
+            i{
+                color: $blue;
+            }
+        }
     }
 }

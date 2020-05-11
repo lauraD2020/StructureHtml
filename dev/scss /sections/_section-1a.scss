@@ -1,0 +1,29 @@
+/* =============
+    Section 1a
+============= */
+#section-1a{
+
+    background-image: url('../img/header/big.jpg');
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+    color: $white;
+    text-align: center;
+
+    @include md{
+        height: 497px;
+    
+    }
+    
+    @include xl{
+        height: 645px;            
+    }
+    
+
+
+    h1{
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    
+}
