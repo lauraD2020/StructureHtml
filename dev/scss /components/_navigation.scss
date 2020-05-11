@@ -12,6 +12,7 @@
             justify-content: flex-end;
 
         }
+
         li{
             margin-bottom: 20px;
             
@@ -23,13 +24,13 @@
 
             a:link,
             a:visited {
-                color: $blue;
+                color: $white;
                 text-decoration: none;
             }
 
             a:hover,
             a:active {
-                color: $black;
+                color: $red;
             }
         }
     }
